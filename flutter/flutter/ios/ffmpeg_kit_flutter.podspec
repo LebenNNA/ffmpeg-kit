@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'ffmpeg_kit_ios_local'
 
   s.subspec 'ffmpeg_kit_ios_local' do |ss|
-    ss.vendored_frameworks = 'Frameworks/ffmpeg-kit-ios-https/ffmpegkit.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libavdevice.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libavcodec.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libavfilter.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libavformat.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libavutil.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libswresample.xcframework', 'Frameworks/ffmpeg-kit-ios-https/libswscale.xcframework'
+    ss.vendored_frameworks = 'Frameworks/ffmpeg-kit-ios-full/ffmpegkit.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libavdevice.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libavcodec.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libavfilter.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libavformat.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libavutil.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libswresample.xcframework', 'Frameworks/ffmpeg-kit-ios-full/libswscale.xcframework'
   end
 
   s.dependency          'Flutter'
